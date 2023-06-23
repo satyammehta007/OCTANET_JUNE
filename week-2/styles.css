@@ -1,0 +1,42 @@
+
+body {
+  height: 100vh;
+  background: rgb(5,59,85);
+  background: linear-gradient(90deg, rgba(5,59,85,1) 0%, rgba(0,0,0,1) 50%, rgba(5,59,85,1) 100%); 
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+}
+
+#main{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  margin-bottom: 20px;
+ 
+}
+
+#taskInput {
+  padding: 5px;
+  width: 200px;
+}
+
+#addButton {
+  padding: 5px 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
